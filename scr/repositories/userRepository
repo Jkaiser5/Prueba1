@@ -1,0 +1,9 @@
+const CrudRepositoriy = require ('../lib/crudRepository');
+const User = require ('../models/User');
+
+class UserRepository extends CrudRepositoriy{
+    constructor(){
+        super (User);
+    }
+}
+module.exports=new UserRepository();
