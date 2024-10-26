@@ -20,7 +20,7 @@ class CrudRepository {
     }
 
     async findById(id) {
-        const [rows] = await pool.query(`Select * from ${this.tableName}WHERE id= ?`, [id]);
+        const [rows] = await pool.query(`Select * from ${this.tableName} WHERE id= ?`, [id]);
         return rows[0];
     }
 
@@ -30,7 +30,7 @@ class CrudRepository {
     }
 
     async update(id, data) {
-        await pool.query(`update ${this.tableName}set ? where id=?`, [data, id]);
+        await pool.query(`update ${this.tableName} set ? where id = ?`, [data, id]);
         return this.findById(id);
     }
 
