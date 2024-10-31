@@ -1,0 +1,35 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "dssl",
+    "collectionId": "0ad2c58b-0ffa-43f8-bef8-a3a93f881e39",
+    "dateExported": "2024-10-30T23:46:43.108Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bb37ecb0-91c8-433f-932a-3910e4bd5791",
+            "colId": "0ad2c58b-0ffa-43f8-bef8-a3a93f881e39",
+            "containerId": "",
+            "name": "deleteUser",
+            "url": "http://localhost:3000/api/users/5",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-10-30T22:46:15.167Z",
+            "modified": "2024-10-30T23:41:08.885Z",
+            "headers": []
+        },
+        {
+            "_id": "4e60fb7c-de38-491f-ac9c-fa96c5004728",
+            "colId": "0ad2c58b-0ffa-43f8-bef8-a3a93f881e39",
+            "containerId": "",
+            "name": "getUser",
+            "url": "http://localhost:3000/api/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-10-30T23:19:11.433Z",
+            "modified": "2024-10-30T23:20:03.555Z",
+            "headers": []
+        }
+    ],
+    "ref": "PWtt2ZBZ-EV5Ga8b9L0czvChLXlRdVbF9iEfof-Mno6_nhq9pB1xsH7ee3a_NHWxDlIDpuieJoWz5sHg5EnjKw"
+}

@@ -9,7 +9,7 @@ const pool = mysql.createPool({
     queueLimit: 0
 }) //entre llaves es un objeto tipo jason;
 
-class CrudRepository {
+class CrudRepository {  
     constructor(model) {
         this.model = model;
         this.tableName = model.tableName;
@@ -36,6 +36,7 @@ class CrudRepository {
 
     async delete(id) {
         const [result] = await pool.query(`delete from ${this.tableName} where id=?`, [id]);
+        console.log(result.affectedRows>0);
         return result.affectedRows>0;
     }
 }
