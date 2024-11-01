@@ -1,0 +1,98 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "dssl2024-2",
+    "collectionId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+    "dateExported": "2024-11-01T01:52:55.557Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4505ce37-acd1-47f2-b607-b637ea66b308",
+            "colId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+            "containerId": "",
+            "name": "getusuarios",
+            "url": "http://localhost:3000/api/users/3",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-26T22:07:46.135Z",
+            "modified": "2024-10-26T22:40:21.953Z",
+            "headers": []
+        },
+        {
+            "_id": "58321f16-12f2-4eb5-bd9d-1a01bd929c59",
+            "colId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+            "containerId": "",
+            "name": "createuser",
+            "url": "http://localhost:3000/api/users/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-26T22:51:29.983Z",
+            "modified": "2024-10-26T22:55:10.646Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"loao\",\n  \"email\":\"dfslkfjo@loka.com\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "63326dc7-5709-464a-b6d4-97878af96d23",
+            "colId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+            "containerId": "",
+            "name": "updateuser",
+            "url": "http://localhost:3000/api/users/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-10-26T22:59:25.908Z",
+            "modified": "2024-11-01T00:21:33.270Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"asdsalerolero\",\n  \"email\":\"sadsadlerolero@lerolero.com\"\n  \"id\":1\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "325f5d62-c93e-4609-a88d-48338ce0cc93",
+            "colId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+            "containerId": "",
+            "name": "updateuser",
+            "url": "http://localhost:3000/api/users/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-10-26T23:01:03.571Z",
+            "modified": "2024-10-26T23:01:03.571Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"loao\",\n  \"email\":\"dfslkfjo@loka.com\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "1954ec96-2c34-4ec5-905b-8fc7d95f8fdf",
+            "colId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+            "containerId": "",
+            "name": "GETROL",
+            "url": "http://localhost:3000/api/rol/users/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-11-01T00:50:04.445Z",
+            "modified": "2024-11-01T01:52:47.677Z",
+            "headers": []
+        },
+        {
+            "_id": "126a80a3-2e65-4990-b58e-fe1a0e7420bb",
+            "colId": "789aad50-32fe-43e2-a2cb-1648a1fbd065",
+            "containerId": "",
+            "name": "GETUSUARIOBYROL",
+            "url": "http://localhost:3000/api/rol/users/1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-11-01T01:40:05.469Z",
+            "modified": "2024-11-01T01:47:31.734Z",
+            "headers": []
+        }
+    ],
+    "ref": "L5-w4vmHqt8XcXKMmNmhOOwT9irjPkPKs2xPHdl6o_G07PjtCXeunWoKfKZzfV95RGhtjkCt2mYV0msqinZfFg"
+}

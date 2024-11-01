@@ -1,0 +1,14 @@
+const CrudRepositoriy = require ('../lib/crudRepository');
+const rol = require ('../models/rol');
+
+class rolRepository extends CrudRepositoriy{
+    constructor(){
+        super (rol);
+    }
+    async findUsersByIdRol(rolId){
+        const [rows]=await this.pool.query(`select *from rol r inner join usuario u on r.id=u.idRol where r.id=?`,[rolId]);
+        return rows;
+    }
+    
+}
+module.exports=new rolRepository();
